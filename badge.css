@@ -1,0 +1,86 @@
+
+.badge-project{
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+.badge-android{
+    background: rgb(39, 153, 33);
+}
+.badge-okhttp{
+    background: rgb(36, 151, 151);
+}
+.badge-picasso{
+    background: rgb(189, 60, 63);
+}
+.badge-mpandroidchart{
+    background: rgb(45, 145, 192);
+}
+.badge-sqlite{
+    background: rgb(20, 55, 90);
+}
+
+.badge-mysql{
+    background: rgb(30, 86, 140);
+}
+.badge-xml{
+    background: rgb(112, 111, 216);
+}
+.badge-js{
+    background: rgb(179, 146, 16);
+}
+.badge-ajax{
+    background: rgb(135, 150, 5);
+}
+
+.badge-jsp{
+    background: rgb(232, 111, 0);
+}
+.badge-servlet{
+    background: rgb(54, 119, 205);
+}
+.badge-applet{
+    background: rgb(61, 94, 136);
+}
+.badge-game{
+    background: rgb(161, 27, 150);
+}
+
+.badge-python{
+background: rgb(41, 59, 96);
+}
+.badge-hadoop{
+    background: rgb(11, 129, 197);
+}
+.badge-spark{
+    background: rgb(196, 91, 0);
+}
+.badge-cli{
+    background: rgb(66, 66, 66);
+}
+
+.badge-c{
+    background: rgb(15, 0, 97);
+}
+.badge-posix{
+    background: rgb(99, 37, 1);
+}
+.badge-parallel{
+    background: rgb(92, 0, 97);
+}
+.badge-qt{
+   background: rgb(0, 153, 54);
+}
+.badge-ui{
+    background: rgb(78, 2, 150);
+}
+.badge-design{
+    background: rgb(110, 112, 1);
+}
+
+.badge-awk{
+    background: rgb(83, 27, 5);
+}
+.badge-ns2{
+    background: rgb(0, 110, 9);
+}

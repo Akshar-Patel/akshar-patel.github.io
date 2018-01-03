@@ -1,0 +1,60 @@
+#content{
+    margin: 16px;
+}
+
+.navbar {
+    padding: 0px;
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.25);
+}
+.nav-item {
+    padding: 5px;
+    text-align: center;
+}
+.nav-item:hover {
+    background: whitesmoke;
+    padding-bottom: 3px;
+    border-bottom: 2px solid royalblue;
+}
+.active {
+    padding-bottom: 3px;
+    border-bottom: 2px solid royalblue;
+}
+.active a {
+    color: forestgreen !important;
+}
+
+.badge {
+    padding: 10px;
+    font-size: 0.8em;
+    color: white;
+}
+.badge-kotlin{
+    background: #497bb7;
+}
+.badge-java{
+    background: #B30000;
+}
+
+.stack-overflow {
+    color: #F48024;
+}
+.github {
+    color: black;
+}
+.linkedin{
+    color: #0084bf;
+}
+.twitter{
+    color: #1da1f2;
+}
+
+.footer-icon {
+    padding: 8px 16px;
+    margin: 0px 3px;
+}
+.footer-icon:hover{
+    background: whitesmoke;
+}
+#footer {
+    margin-bottom: 10px;
+}
