@@ -67,3 +67,6 @@
 #footer {
     margin-bottom: 10px;
 }
+#footer a{
+    text-decoration: none;
+}
