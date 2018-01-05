@@ -1,13 +1,31 @@
 <script data-pace-options='{ elements: {selectors: [' iframe ']} }' src="pace.min.js"></script>
 <div class="text-center">
     <div class="row">
-        <div class="col-sm"></div>
         <div class="col-sm">
-            <iframe width="800" height="1050" src="https://docs.google.com/document/d/e/2PACX-1vS2WdTGmKGoUQKuX66p097NgoZn4PdID8sYVsW8heMdDe3ANn3w8jDEXpxEX638xClO9Z_Tx-qsnvo7/pub?embedded=true">
+            <a href="https://docs.google.com/document/export?format=pdf&id=1VIxDP-TXKr5Cr_RhGSX97jdpScCoOb6GCcPHigWeSlU" 
+            class="btn btn-outline-danger"
+            style="margin-top: 24px;"
+            role="button">Download as PDF</a></div>
+        <div class="col-sm">
+            <iframe id="google-docs-frame" width="800" height="1050" src="" frameborder="0">
             </iframe>
+            <script>
+                $(function () {
+                    $.get("https://docs.google.com/document/d/e/2PACX-1vS2WdTGmKGoUQKuX66p097NgoZn4PdID8sYVsW8heMdDe3ANn3w8jDEXpxEX638xClO9Z_Tx-qsnvo7/pub?embedded=true", function (html) {
+                        var contents = $("iframe").contents();
+
+                        contents.find("html").html(html);
+
+                        setTimeout(function () {
+                            contents.find('a[href^="http://"]').attr("target", "_blank");
+                            contents.find('a[href^="https://"]').attr("target", "_blank");
+                        }, 1000); // Actually not sure if timeout is required here...
+                    });
+                });
+            </script>
         </div>
         <div class="col-sm">
-            <a href="https://docs.google.com/document/export?format=pdf&id=1VIxDP-TXKr5Cr_RhGSX97jdpScCoOb6GCcPHigWeSlU" class="btn btn-primary" role="button">Download as PDF</a>
+            
         </div>
     </div>
 </div>
