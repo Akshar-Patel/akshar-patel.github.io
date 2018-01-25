@@ -23,6 +23,10 @@
     color: forestgreen !important;
 }
 
+.col-sm{
+    margin-bottom: 8px;
+}
+
 .badge {
     padding: 10px;
     font-size: 0.8em;
