@@ -10,6 +10,15 @@
 .badge-okhttp{
     background: rgb(36, 151, 151);
 }
+.badge-exoplayer{
+    background: rgb(74, 41, 153);
+}
+.badge-widget{
+    background: rgb(24, 134, 20);
+}
+.badge-espresso{
+    background: rgb(16, 128, 50);
+}
 .badge-picasso{
     background: rgb(189, 60, 63);
 }
