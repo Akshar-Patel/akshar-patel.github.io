@@ -32,6 +32,9 @@
     font-size: 0.8em;
     color: white;
 }
+.badge-android{
+    background: rgb(39, 153, 33);;
+}
 .badge-kotlin{
     background: #497bb7;
 }
