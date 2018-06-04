@@ -1,4 +1,4 @@
-#content{
+#content {
     margin: 16px;
 }
 
@@ -6,64 +6,87 @@
     padding: 0px;
     box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.25);
 }
+
 .nav-item {
     padding: 5px;
     text-align: center;
 }
+
 .nav-item:hover {
     background: whitesmoke;
     padding-bottom: 3px;
     border-bottom: 2px solid royalblue;
 }
+
 .active {
     padding-bottom: 3px;
     border-bottom: 2px solid royalblue;
 }
+
 .active a {
     color: forestgreen !important;
 }
 
-.col-sm{
-    margin-bottom: 8px;
+.col-md-4 {
+    padding-bottom: 16px;
+}
+
+.card {
+    padding-top: 16px;
+}
+
+.lead {
+    padding-top: 16px;
 }
 
 .badge {
-    padding: 10px;
+    padding: 8px;
     font-size: 0.8em;
     color: white;
 }
-.badge-android{
-    background: rgb(39, 153, 33);;
+
+.badge-android {
+    background: rgb(39, 153, 33);
+    ;
 }
-.badge-kotlin{
+
+.badge-kotlin {
     background: #497bb7;
 }
-.badge-java{
+
+.badge-java {
     background: #B30000;
 }
 
 .stack-overflow {
     color: #F48024;
 }
+
 .github {
     color: black;
 }
-.linkedin{
+
+.linkedin {
     color: #0084bf;
 }
-.twitter{
+
+.twitter {
     color: #1da1f2;
 }
-.gmail{
+
+.gmail {
     color: #D72F13;
 }
-.telegram{
-        color: #4DAFF4;
-    }
-.whatsapp{
+
+.telegram {
+    color: #4DAFF4;
+}
+
+.whatsapp {
     color: rgb(1, 143, 58);
 }
-.phone{
+
+.phone {
     color: #0873d8;
 }
 
@@ -71,12 +94,15 @@
     padding: 8px 16px;
     margin: 0px 3px;
 }
-.footer-icon:hover{
+
+.footer-icon:hover {
     background: whitesmoke;
 }
+
 #footer {
     margin-bottom: 10px;
 }
-#footer a{
+
+#footer a {
     text-decoration: none;
 }
